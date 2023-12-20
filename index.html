@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Hesab.az</title>
+</head>
+<body>
+
+<!------------------------------------->
+
+<div class="container">
+
+    <div class="up-text">
+        <h1>Hesaba daxil ol</h1>
+        <h3>Məlumatlarınızı daxil edin</h3>
+    </div>
+
+    <div class="form-group">
+        <label for="firstname">Email və ya nömrə:</label> <br>
+        <span class="user-icon" ><i class="fa-regular fa-user"></i></span>
+        <input type="text"placeholder="hesab@hesab.az və ya 994 00 123 45 67" class="form-control" id="firstname"  name="firstname" >
+    </div>
+    <br>
+    <div class="form-group" >
+        <label for="sifrə">Şifrə:</label> <br>
+        <span class="lock-icon"><i class="fa-solid fa-lock"></i></span>
+        <input type="password" placeholder="********" class="form-control" id="password" name="password" >
+        <span class="eye-icon"><i class="fa-regular fa-eye"></i></i></span>
+    </div>
+    <br>
+
+    <div class="save-text">
+
+        <input type="checkbox" name="checkbox" id="save">
+        <p>Yadda saxla</p>
+        <div class="forgot-password">
+            <p><a href="https://hesab.az/registered/#/auth/forgot-password">Şifrəni unutmusunuz?</a></p>
+        </div>
+
+    </div>
+
+    <button class="daxilol">Daxil ol</button> <br>
+    <button class="yenihesab">Yeni hesab yardın</button>
+
+    <p class="veya">və ya</p>
+    <div class="social">
+        <button class="asan"><img src="./images/asan_btn_dec.png" alt="w"><a href="https://hesab.az/registered/#/auth/login">Asan imza ilə daxil olun</a></button>
+
+        <button class="facebook"><img src="./images/facebook_btn_dec.png" alt="w"><a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=240667429921510&kid_directed_site=0&app_id=240667429921510&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.9%2Fdialog%2Foauth%3Fapp_id%3D240667429921510%26cbt%3D1703099358219%26channel_url%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df1d6c56605eb88%2526domain%253Dhesab.az%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fhesab.az%25252Ff29ab4e83f8d908%2526relation%253Dopener%26client_id%3D240667429921510%26display%3Dpopup%26domain%3Dhesab.az%26e2e%3D%257B%257D%26fallback_redirect_uri%3Dhttps%253A%252F%252Fhesab.az%252Fregistered%252F%2523%252Fauth%252Flogin%26locale%3Den_US%26logger_id%3Df27bfbc9b8a28d%26origin%3D1%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df3b4ecef65258c%2526domain%253Dhesab.az%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fhesab.az%25252Ff29ab4e83f8d908%2526relation%253Dopener%2526frame%253Df39c3657254d1dc%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26scope%3Demail%252Cpublic_profile%26sdk%3Djoey%26version%3Dv2.9%26ret%3Dlogin%26fbapp_pres%3D0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3b4ecef65258c%26domain%3Dhesab.az%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fhesab.az%252Ff29ab4e83f8d908%26relation%3Dopener%26frame%3Df39c3657254d1dc%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied&display=popup&locale=tr_TR&pl_dbl=0">
+            Facebook ilə daxil olun</a></button>
+
+        <button class="google"><img src="./images/google_btn_dec.png" alt="w"><a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fhesab.az%3Fid%3Dauth516552&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=802861768696-42ckst5snho1ci9c9h2dh5vel719ti6l.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fhesab.az&fetch_basic_profile=true&gsiwebsdk=2&service=lso&o2v=1&theme=glif&flowName=GeneralOAuthFlow">Goole ilə daxil olun</a></button>
+    </div>
+
+</div>
+
+  
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

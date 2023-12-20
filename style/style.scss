@@ -1,0 +1,151 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+
+}
+
+.container{
+    width: 550px;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #aaa;
+    margin-top: 20px;
+
+  .up-text{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    h3{
+      color: grey;
+    }
+  }
+
+  .form-group{
+    
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgb(68, 65, 65);
+    .form-control{
+      width: 450px;
+      height: 30px;
+      border-radius: 4px;
+      margin-top: 20px;
+      border: 1px solid #ddd;
+      margin-top: 20px;
+    }
+    
+  }
+  .save-text{
+    display: flex;
+    gap: 5px;
+    .forgot-password{
+      margin-left:36%;
+    }
+    p{
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(69, 68, 68);
+    }
+  }
+  .daxilol{
+    cursor: pointer;
+    padding:10px 195px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    margin-left: 15px;
+    background-color: #1a75ff;
+    color: #ddd;
+    &:hover{
+      padding:11px 197px;
+      transition: .3s all ease;
+    }
+  }
+  .yenihesab{
+    cursor: pointer;
+    padding:10px 160px;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-top: 20px;
+    border: 1px solid blue;
+    margin-left: 15px;
+    margin-top: 30px;
+    color:#1a75ff;
+    background-color: white;
+
+    &:hover{
+      transition: .3s all ease;
+      background-color: #1a75ff;
+      color: white;
+    }
+
+  }
+  .veya{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(149, 144, 144);
+    margin-top: 25px;
+    margin-left: 40%;
+  }
+.social{
+  .asan{
+    a{
+      margin-top: 10px;
+      font-size: 15px;
+      color: rgb(60, 58, 58);
+      text-decoration-line: none;
+    }
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    width: 453px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(99, 99, 159);
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: rgb(247, 245, 245);  }
+  .facebook{
+    a{
+      margin-top: 10px;
+      font-size: 15px;
+      color: rgb(60, 58, 58);
+      text-decoration-line: none;
+    }
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    width: 453px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(99, 99, 159);
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: rgb(247, 245, 245);
+  }
+  .google{
+    a{
+      margin-top: 10px;
+      font-size: 15px;
+      color: rgb(60, 58, 58);
+      text-decoration-line: none;
+    }
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+    width: 453px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(99, 99, 159);
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: rgb(247, 245, 245);
+  }
+}
+}

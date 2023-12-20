@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 550px;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 2px 2px 8px #aaa;
+  margin-top: 20px;
+}
+.container .up-text {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .up-text h3 {
+  color: grey;
+}
+.container .form-group {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  color: rgb(68, 65, 65);
+}
+.container .form-group .form-control {
+  width: 450px;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+.container .save-text {
+  display: flex;
+  gap: 5px;
+}
+.container .save-text .forgot-password {
+  margin-left: 36%;
+}
+.container .save-text p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(69, 68, 68);
+}
+.container .daxilol {
+  cursor: pointer;
+  padding: 10px 195px;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  margin-left: 15px;
+  background-color: #1a75ff;
+  color: #ddd;
+}
+.container .daxilol:hover {
+  padding: 11px 197px;
+  transition: 0.3s all ease;
+}
+.container .yenihesab {
+  cursor: pointer;
+  padding: 10px 160px;
+  border-radius: 4px;
+  font-size: 17px;
+  margin-top: 20px;
+  border: 1px solid blue;
+  margin-left: 15px;
+  margin-top: 30px;
+  color: #1a75ff;
+  background-color: white;
+}
+.container .yenihesab:hover {
+  transition: 0.3s all ease;
+  background-color: #1a75ff;
+  color: white;
+}
+.container .veya {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(149, 144, 144);
+  margin-top: 25px;
+  margin-left: 40%;
+}
+.container .social .asan {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  cursor: pointer;
+  width: 453px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgb(99, 99, 159);
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: rgb(247, 245, 245);
+}
+.container .social .asan a {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(60, 58, 58);
+  text-decoration-line: none;
+}
+.container .social .facebook {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  cursor: pointer;
+  width: 453px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgb(99, 99, 159);
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: rgb(247, 245, 245);
+}
+.container .social .facebook a {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(60, 58, 58);
+  text-decoration-line: none;
+}
+.container .social .google {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  cursor: pointer;
+  width: 453px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgb(99, 99, 159);
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: rgb(247, 245, 245);
+}
+.container .social .google a {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(60, 58, 58);
+  text-decoration-line: none;
+}/*# sourceMappingURL=style.css.map */
