@@ -247,17 +247,6 @@ body {
   border: 1px solid #ddd;
   margin-top: 20px;
 }
-.sifreniunutmusuz .container-password .save-text {
-  display: flex;
-  gap: 5px;
-}
-.sifreniunutmusuz .container-password .save-text .forgot-password {
-  margin-left: 36%;
-}
-.sifreniunutmusuz .container-password .save-text p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(69, 68, 68);
-}
 .sifreniunutmusuz .container-password .save-text-lock {
   width: 250px;
   border: 1px solid #ddd;
@@ -267,11 +256,17 @@ body {
   display: flex;
   gap: 5px;
 }
+.sifreniunutmusuz .container-password .save-text-lock input {
+  position: absolute;
+  margin-top: 18px;
+}
 .sifreniunutmusuz .container-password .save-text-lock p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(69, 68, 68);
+  margin-left: 11%;
 }
 .sifreniunutmusuz .container-password .save-text-lock img {
+  position: relative;
   width: 70px;
   height: 50px;
   margin-left: 15px;
@@ -361,10 +356,14 @@ body {
   display: flex;
   gap: 5px;
 }
+.yeni-hesab .container-yenihesab .save-text-lock input {
+  position: absolute;
+  margin-top: 19px;
+}
 .yeni-hesab .container-yenihesab .save-text-lock p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(69, 68, 68);
-  margin-top: 6%;
+  margin-left: 6%;
 }
 .yeni-hesab .container-yenihesab .restart {
   cursor: pointer;
