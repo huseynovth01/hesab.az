@@ -331,7 +331,7 @@ body {
 .yeni-hesab .container-yenihesab .up-text h3 {
   color: grey;
 }
-.yeni-hesab .container-yenihesab .form-group {
+.yeni-hesab .container-yenihesab .form_input .form-group {
   position: relative;
   background-color: transparent;
   font-weight: 400;
@@ -341,13 +341,7 @@ body {
   margin-bottom: 10px;
   color: rgb(68, 65, 65);
 }
-.yeni-hesab .container-yenihesab .form-group .user-icon {
-  position: absolute;
-  left: 10px;
-  top: 45px;
-  z-index: 3;
-}
-.yeni-hesab .container-yenihesab .form-group .form-control {
+.yeni-hesab .container-yenihesab .form_input .form-group .form-controlmail {
   padding-left: 30px;
   position: relative;
   width: 450px;
@@ -357,22 +351,38 @@ body {
   border: 1px solid #ddd;
   margin-top: 20px;
 }
-.yeni-hesab .container-yenihesab .save-text-lock {
+.yeni-hesab .container-yenihesab .form_input .form-group .user-icon {
+  position: absolute;
+  left: 10px;
+  top: 45px;
+  z-index: 3;
+}
+.yeni-hesab .container-yenihesab .form_input .form-group .form-control {
+  padding-left: 30px;
+  position: relative;
+  width: 450px;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+.yeni-hesab .container-yenihesab .form_input .save-text-lock {
   padding: 10px;
   margin-top: 4%;
   display: flex;
   gap: 5px;
 }
-.yeni-hesab .container-yenihesab .save-text-lock input {
+.yeni-hesab .container-yenihesab .form_input .save-text-lock input {
   position: absolute;
   margin-top: 19px;
 }
-.yeni-hesab .container-yenihesab .save-text-lock p {
+.yeni-hesab .container-yenihesab .form_input .save-text-lock p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(69, 68, 68);
   margin-left: 6%;
 }
-.yeni-hesab .container-yenihesab .restart {
+.yeni-hesab .container-yenihesab .form_input .restart {
   cursor: pointer;
   padding: 12px 198px;
   border-radius: 4px;
@@ -381,12 +391,9 @@ body {
   border: 1px solid #ddd;
   margin-left: 2px;
   background-color: #1a75ff;
-}
-.yeni-hesab .container-yenihesab .restart a {
   color: #ddd;
-  text-decoration-line: none;
 }
-.yeni-hesab .container-yenihesab .restart:hover {
+.yeni-hesab .container-yenihesab .form_input .restart:hover {
   padding: 13px 200px;
   transition: 0.3s all ease;
 }
