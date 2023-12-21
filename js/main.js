@@ -3,10 +3,10 @@ var eyeoff = document.querySelector(".eye")
 var password = document.getElementById("password");
 var emailmessage = document.querySelector(".email-message");
 var form_input = document.querySelector(".form_input");
-var formcontrol =document.querySelector(".form-control")
 var passwordmessage = document.querySelector(".passwordmessage")
+var formcontrol =document.querySelector(".form-control")
 
-// ------------------------------------
+// ---------eye off or on----------
 
 eye.addEventListener('click' , function(){
     eye.style.display = "none" ;   
@@ -19,7 +19,7 @@ eye.addEventListener('click' , function(){
         password.type="text";
         });
 
-// ------------------------------------
+// -----------email------
 
 document.querySelector(".form_input").addEventListener("submit",function(e){
     e.preventDefault();
@@ -33,21 +33,28 @@ if(formcontrol.value.trim()===""){
 }
 else{
     emailmessage.textContent = ""
-    emailmessage.style.color = "1 px solid black"
+    emailmessage.style.border = "1 px solid black"
     
+    if(!formcontrol.value.includes("@")){
+        emailmessage.textContent = "Meselen hesab@hesab.az və ya 994 00 123 45 67"
+        emailmessage.style.color="red"
+        emailmessage.style.color = "1 px solid red"
+    }
 }
 
-// ------------------------------------
+// -----------password------
+
+var password = document.getElementById("password").value
 
 
 password_border = document.querySelector(".passwordmessage")
 
-if(password.value.trim()===""){
+if(password.trim()===""){
     
     passwordmessage.textContent = "Zehmet olmasa xanani bos saxlamayin"
     passwordmessage.style.color = "red"
     password.style.border = "1px solid red"
-    
+ 
  }
  else{
     passwordmessage.textContent = ""
@@ -55,8 +62,6 @@ if(password.value.trim()===""){
  }
 
 })
-
-// ------------------------------------
 
 
 
