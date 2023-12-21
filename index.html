@@ -16,45 +16,53 @@
         <img src="./images/signin_az.png" alt="">
     </div>
     
-    <div class="container">
+    <div class="form">
     
         
-    
         <div class="up-text">
             <h1>Hesaba daxil ol</h1>
             <h3>Məlumatlarınızı daxil edin</h3>
         </div>
+        
+        <form class="form_input">
+
+            <div class="form-group">
+                <label for="firstname">Email və ya nömrə:</label> <br>
+                <span class="user-icon" ><i class="fa-regular fa-user"></i></span>
+                <input type="text"placeholder="hesab@hesab.az və ya 994 00 123 45 67" class="form-control" id="firstname"  name="firstname" >
+                <div class="email-message">
     
-        <div class="form-group">
-            <label for="firstname">Email və ya nömrə:</label> <br>
-            <span class="user-icon" ><i class="fa-regular fa-user"></i></span>
-            <input type="text"placeholder="hesab@hesab.az və ya 994 00 123 45 67" class="form-control" id="firstname"  name="firstname" >
-        </div>
-        <br>
-        <div class="form-group" >
-            <label for="sifrə">Şifrə:</label> <br>
-            <span class="lock-icon"><i class="fa-solid fa-lock"></i></span>
-            <input type="password" placeholder="********" class="form-control" id="password" name="password" >
-            <span class="eye-icon"><i class="fa-regular fa-eye"></i></i></span>
-            <div class="eye">
-                <i class="fa-solid fa-eye-slash"></i>
+                </div>
             </div>
-        </div>
-        <br>
-    
-        <div class="save-text">
-    
-            <input type="checkbox" name="checkbox" id="save">
-            <p>Yadda saxla</p>
-            <div class="forgot-password">
-                <p><a href="http://127.0.0.1:5502/password.html">Şifrəni unutmusunuz?</a></p>
+            <br>
+            <div class="form-group" >
+                <label for="sifrə">Şifrə:</label> <br>
+                <span class="lock-icon"><i class="fa-solid fa-lock"></i></span>
+                <input type="text" placeholder="********" class="form-control" id="password" name="password" >
+                <span class="eye-icon"><i class="fa-regular fa-eye"></i></i></span>
+                <div class="eye">
+                    <i class="fa-solid fa-eye-slash"></i>
+                </div>
+                <div class="passwordmessage">
+
+                </div>
             </div>
-    
-        </div>
-    
-        <button class="daxilol" onmouseover="increaseSize()" onmouseout="decreaseSize()"><a href="">Daxil ol</a></button>   
-        <button class="yenihesab"><a href="http://127.0.0.1:5502/yenihesab.html">Yeni hesab yardın</a></button>
-    
+            <br>
+        
+            <div class="save-text">
+        
+                <input type="checkbox" name="checkbox" id="save">
+                <p>Yadda saxla</p>
+                <div class="forgot-password">
+                    <p><a href="http://127.0.0.1:5502/password.html">Şifrəni unutmusunuz?</a></p>
+                </div>
+        
+            </div>
+        
+            <button type="submit" class="daxilol">Daxil ol</button>   
+            <button class="yenihesab"><a href="http://127.0.0.1:5502/yenihesab.html">Yeni hesab yardın</a></button>
+        
+        </form>
         <p class="veya">və ya</p>
         <div class="social">
             <button class="asan"><img src="./images/asan_btn_dec.png" alt="w"><a href="http://127.0.0.1:5502/">Asan imza ilə daxil olun</a></button>

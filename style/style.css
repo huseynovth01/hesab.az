@@ -15,20 +15,20 @@ body {
 .hesabadaxilol .img-index img {
   max-height: 90vh;
 }
-.hesabadaxilol .container {
+.hesabadaxilol .form {
   width: 550px;
   border: 1px solid #ddd;
   padding: 20px;
   box-shadow: 2px 2px 8px #aaa;
 }
-.hesabadaxilol .container .up-text {
+.hesabadaxilol .form .up-text {
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
 }
-.hesabadaxilol .container .up-text h3 {
+.hesabadaxilol .form .up-text h3 {
   color: grey;
 }
-.hesabadaxilol .container .form-group {
+.hesabadaxilol .form .form-group {
   position: relative;
   background-color: transparent;
   font-weight: 400;
@@ -38,30 +38,30 @@ body {
   margin-bottom: 10px;
   color: rgb(68, 65, 65);
 }
-.hesabadaxilol .container .form-group .user-icon {
+.hesabadaxilol .form .form-group .user-icon {
   position: absolute;
   left: 10px;
   top: 45px;
   z-index: 3;
 }
-.hesabadaxilol .container .form-group .lock-icon {
+.hesabadaxilol .form .form-group .lock-icon {
   left: 10px;
   position: absolute;
   top: 45px;
   z-index: 3;
 }
-.hesabadaxilol .container .form-group .eye-icon {
+.hesabadaxilol .form .form-group .eye-icon {
   top: 45px;
   position: absolute;
   left: 92%;
 }
-.hesabadaxilol .container .form-group .eye {
+.hesabadaxilol .form .form-group .eye {
   top: 45px;
   position: absolute;
   left: 92%;
   display: none;
 }
-.hesabadaxilol .container .form-group .form-control {
+.hesabadaxilol .form .form-group .form-control {
   padding-left: 30px;
   position: relative;
   width: 450px;
@@ -71,18 +71,18 @@ body {
   border: 1px solid #ddd;
   margin-top: 20px;
 }
-.hesabadaxilol .container .save-text {
+.hesabadaxilol .form .save-text {
   display: flex;
   gap: 5px;
 }
-.hesabadaxilol .container .save-text .forgot-password {
+.hesabadaxilol .form .save-text .forgot-password {
   margin-left: 36%;
 }
-.hesabadaxilol .container .save-text p {
+.hesabadaxilol .form .save-text p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(69, 68, 68);
 }
-.hesabadaxilol .container .daxilol {
+.hesabadaxilol .form .daxilol {
   cursor: pointer;
   padding: 12px 202px;
   border-radius: 4px;
@@ -95,14 +95,14 @@ body {
   text-decoration-line: none;
   transition: 0.5s all;
 }
-.hesabadaxilol .container .daxilol:hover {
+.hesabadaxilol .form .daxilol:hover {
   transform: scale(1.03);
 }
-.hesabadaxilol .container .daxilol a {
+.hesabadaxilol .form .daxilol a {
   text-decoration-line: none;
   color: white;
 }
-.hesabadaxilol .container .yenihesab {
+.hesabadaxilol .form .yenihesab {
   cursor: pointer;
   padding: 10px 160px;
   border-radius: 4px;
@@ -115,23 +115,23 @@ body {
   background-color: white;
   transition: 0.5s all ease;
 }
-.hesabadaxilol .container .yenihesab a {
+.hesabadaxilol .form .yenihesab a {
   text-decoration-line: none;
   color: #1a75ff;
 }
-.hesabadaxilol .container .yenihesab:hover {
+.hesabadaxilol .form .yenihesab:hover {
   background-color: #1a75ff;
 }
-.hesabadaxilol .container .yenihesab:hover a {
+.hesabadaxilol .form .yenihesab:hover a {
   color: white;
 }
-.hesabadaxilol .container .veya {
+.hesabadaxilol .form .veya {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(149, 144, 144);
   margin-top: 25px;
   margin-left: 40%;
 }
-.hesabadaxilol .container .social .asan {
+.hesabadaxilol .form .social .asan {
   display: flex;
   justify-content: center;
   gap: 7px;
@@ -144,13 +144,13 @@ body {
   margin-top: 10px;
   background-color: rgb(247, 245, 245);
 }
-.hesabadaxilol .container .social .asan a {
+.hesabadaxilol .form .social .asan a {
   margin-top: 10px;
   font-size: 15px;
   color: rgb(60, 58, 58);
   text-decoration-line: none;
 }
-.hesabadaxilol .container .social .facebook {
+.hesabadaxilol .form .social .facebook {
   display: flex;
   justify-content: center;
   gap: 7px;
@@ -163,13 +163,13 @@ body {
   margin-top: 10px;
   background-color: rgb(247, 245, 245);
 }
-.hesabadaxilol .container .social .facebook a {
+.hesabadaxilol .form .social .facebook a {
   margin-top: 10px;
   font-size: 15px;
   color: rgb(60, 58, 58);
   text-decoration-line: none;
 }
-.hesabadaxilol .container .social .google {
+.hesabadaxilol .form .social .google {
   display: flex;
   justify-content: center;
   gap: 7px;
@@ -182,7 +182,7 @@ body {
   margin-top: 10px;
   background-color: rgb(247, 245, 245);
 }
-.hesabadaxilol .container .social .google a {
+.hesabadaxilol .form .social .google a {
   margin-top: 10px;
   font-size: 15px;
   color: rgb(60, 58, 58);
