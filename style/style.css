@@ -80,20 +80,21 @@ body {
   cursor: pointer;
   padding: 12px 202px;
   border-radius: 4px;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 20px;
   border: 1px solid #ddd;
   margin-left: 15px;
   background-color: #1a75ff;
   color: #ddd;
   text-decoration-line: none;
+  transition: 0.5s all;
+}
+.hesabadaxilol .container .daxilol:hover {
+  transform: scale(1.03);
 }
 .hesabadaxilol .container .daxilol a {
   text-decoration-line: none;
   color: white;
-}
-.hesabadaxilol .container .daxilol:hover {
-  transition: 0.3s all ease;
 }
 .hesabadaxilol .container .yenihesab {
   cursor: pointer;

@@ -91,21 +91,24 @@ body{
       cursor: pointer;
       padding:12px 202px;
       border-radius: 4px;
-      font-size: 20px;
+      font-size: 18px;
       margin-top: 20px;
       border: 1px solid #ddd;
       margin-left: 15px;
       background-color: #1a75ff;
       color: #ddd;
       text-decoration-line: none;
+      transition: 0.5s all ;
+      &:hover{
+        transform: scale(1.03);
+      }
       a{
         text-decoration-line: none;
         color: white;
       }
-      &:hover{
-        transition: .3s all ease;
-      }
+      
     }
+
     .yenihesab{
       cursor: pointer;
       padding:10px 160px;
