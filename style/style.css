@@ -55,6 +55,12 @@ body {
   position: absolute;
   left: 92%;
 }
+.hesabadaxilol .container .form-group .eye {
+  top: 45px;
+  position: absolute;
+  left: 92%;
+  display: none;
+}
 .hesabadaxilol .container .form-group .form-control {
   padding-left: 30px;
   position: relative;
@@ -102,18 +108,18 @@ body {
   border-radius: 4px;
   font-size: 17px;
   margin-top: 20px;
-  border: 1px solid blue;
+  border: 1px solid #1a75ff;
   margin-left: 15px;
   margin-top: 30px;
   color: #1a75ff;
   background-color: white;
+  transition: 0.5s all ease;
 }
 .hesabadaxilol .container .yenihesab a {
   text-decoration-line: none;
   color: #1a75ff;
 }
 .hesabadaxilol .container .yenihesab:hover {
-  transition: 0.3s all ease;
   background-color: #1a75ff;
 }
 .hesabadaxilol .container .yenihesab:hover a {
@@ -273,7 +279,7 @@ body {
   margin-left: 15px;
 }
 .sifreniunutmusuz .container-password .sifreniyenile {
-  cursor: pointer;
+  cursor: no-drop;
   padding: 12px 198px;
   border-radius: 4px;
   font-size: 20px;

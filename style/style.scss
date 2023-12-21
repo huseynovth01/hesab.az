@@ -51,11 +51,17 @@ body{
   
         }
         .eye-icon{
-  
           top: 45px;
           position: absolute;
           left: 92%;
           }
+          .eye{
+            top: 45px;
+            position: absolute;
+            left: 92%;
+            display: none;
+          }
+          
   
       
       font-weight: 400;
@@ -115,17 +121,17 @@ body{
       border-radius: 4px;
       font-size: 17px;
       margin-top: 20px;
-      border: 1px solid blue;
+      border: 1px solid #1a75ff;
       margin-left: 15px;
       margin-top: 30px;
       color:#1a75ff;
       background-color: white;
+      transition: 0.5s all ease;
       a{
         text-decoration-line: none;
         color:#1a75ff;
       }
       &:hover{
-        transition: .3s all ease;
         background-color: #1a75ff;
         a{
           color: white;
@@ -310,7 +316,7 @@ body{
     }
     
     .sifreniyenile{
-    cursor: pointer;
+    cursor: no-drop;
     padding:12px 198px;
     border-radius: 4px;
     font-size: 20px;
