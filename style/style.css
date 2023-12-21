@@ -4,22 +4,33 @@ body {
   align-items: center;
 }
 
-.container {
+.hesabadaxilol {
+  margin-top: 1%;
+  display: flex;
+  gap: 10%;
+}
+.hesabadaxilol .img-index {
+  left: 20px;
+}
+.hesabadaxilol .img-index img {
+  max-height: 90vh;
+}
+.hesabadaxilol .container {
   width: 550px;
-  margin: auto;
   border: 1px solid #ddd;
   padding: 20px;
   box-shadow: 2px 2px 8px #aaa;
-  margin-top: 20px;
 }
-.container .up-text {
+.hesabadaxilol .container .up-text {
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
 }
-.container .up-text h3 {
+.hesabadaxilol .container .up-text h3 {
   color: grey;
 }
-.container .form-group {
+.hesabadaxilol .container .form-group {
+  position: relative;
+  background-color: transparent;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
   display: block;
@@ -27,7 +38,26 @@ body {
   margin-bottom: 10px;
   color: rgb(68, 65, 65);
 }
-.container .form-group .form-control {
+.hesabadaxilol .container .form-group .user-icon {
+  position: absolute;
+  left: 10px;
+  top: 45px;
+  z-index: 3;
+}
+.hesabadaxilol .container .form-group .lock-icon {
+  left: 10px;
+  position: absolute;
+  top: 45px;
+  z-index: 3;
+}
+.hesabadaxilol .container .form-group .eye-icon {
+  top: 45px;
+  position: absolute;
+  left: 92%;
+}
+.hesabadaxilol .container .form-group .form-control {
+  padding-left: 30px;
+  position: relative;
   width: 450px;
   height: 30px;
   border-radius: 4px;
@@ -35,20 +65,20 @@ body {
   border: 1px solid #ddd;
   margin-top: 20px;
 }
-.container .save-text {
+.hesabadaxilol .container .save-text {
   display: flex;
   gap: 5px;
 }
-.container .save-text .forgot-password {
+.hesabadaxilol .container .save-text .forgot-password {
   margin-left: 36%;
 }
-.container .save-text p {
+.hesabadaxilol .container .save-text p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(69, 68, 68);
 }
-.container .daxilol {
+.hesabadaxilol .container .daxilol {
   cursor: pointer;
-  padding: 10px 195px;
+  padding: 12px 202px;
   border-radius: 4px;
   font-size: 20px;
   margin-top: 20px;
@@ -56,12 +86,16 @@ body {
   margin-left: 15px;
   background-color: #1a75ff;
   color: #ddd;
+  text-decoration-line: none;
 }
-.container .daxilol:hover {
-  padding: 11px 197px;
+.hesabadaxilol .container .daxilol a {
+  text-decoration-line: none;
+  color: white;
+}
+.hesabadaxilol .container .daxilol:hover {
   transition: 0.3s all ease;
 }
-.container .yenihesab {
+.hesabadaxilol .container .yenihesab {
   cursor: pointer;
   padding: 10px 160px;
   border-radius: 4px;
@@ -73,18 +107,24 @@ body {
   color: #1a75ff;
   background-color: white;
 }
-.container .yenihesab:hover {
+.hesabadaxilol .container .yenihesab a {
+  text-decoration-line: none;
+  color: #1a75ff;
+}
+.hesabadaxilol .container .yenihesab:hover {
   transition: 0.3s all ease;
   background-color: #1a75ff;
+}
+.hesabadaxilol .container .yenihesab:hover a {
   color: white;
 }
-.container .veya {
+.hesabadaxilol .container .veya {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(149, 144, 144);
   margin-top: 25px;
   margin-left: 40%;
 }
-.container .social .asan {
+.hesabadaxilol .container .social .asan {
   display: flex;
   justify-content: center;
   gap: 7px;
@@ -97,13 +137,13 @@ body {
   margin-top: 10px;
   background-color: rgb(247, 245, 245);
 }
-.container .social .asan a {
+.hesabadaxilol .container .social .asan a {
   margin-top: 10px;
   font-size: 15px;
   color: rgb(60, 58, 58);
   text-decoration-line: none;
 }
-.container .social .facebook {
+.hesabadaxilol .container .social .facebook {
   display: flex;
   justify-content: center;
   gap: 7px;
@@ -116,13 +156,13 @@ body {
   margin-top: 10px;
   background-color: rgb(247, 245, 245);
 }
-.container .social .facebook a {
+.hesabadaxilol .container .social .facebook a {
   margin-top: 10px;
   font-size: 15px;
   color: rgb(60, 58, 58);
   text-decoration-line: none;
 }
-.container .social .google {
+.hesabadaxilol .container .social .google {
   display: flex;
   justify-content: center;
   gap: 7px;
@@ -135,9 +175,237 @@ body {
   margin-top: 10px;
   background-color: rgb(247, 245, 245);
 }
-.container .social .google a {
+.hesabadaxilol .container .social .google a {
   margin-top: 10px;
   font-size: 15px;
   color: rgb(60, 58, 58);
   text-decoration-line: none;
+}
+
+.sifreniunutmusuz {
+  margin-top: 2%;
+  display: flex;
+}
+.sifreniunutmusuz .geriye {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2%;
+  position: relative;
+  left: 12%;
+}
+.sifreniunutmusuz .geriye i {
+  background-color: rgb(192, 196, 200);
+  padding: 10px 10px;
+  border-radius: 50%;
+  color: black;
+}
+.sifreniunutmusuz .img-password {
+  left: 20px;
+  margin-top: 30px;
+  left: 0px;
+}
+.sifreniunutmusuz .img-password img {
+  max-height: 80vh;
+}
+.sifreniunutmusuz .container-password {
+  width: 550px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 2px 2px 8px #aaa;
+  margin-top: 9%;
+}
+.sifreniunutmusuz .container-password .up-text {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sifreniunutmusuz .container-password .up-text h3 {
+  color: grey;
+}
+.sifreniunutmusuz .container-password .form-group {
+  position: relative;
+  background-color: transparent;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  color: rgb(68, 65, 65);
+}
+.sifreniunutmusuz .container-password .form-group .user-icon {
+  position: absolute;
+  left: 10px;
+  top: 45px;
+  z-index: 3;
+}
+.sifreniunutmusuz .container-password .form-group .form-control {
+  padding-left: 30px;
+  position: relative;
+  width: 450px;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+.sifreniunutmusuz .container-password .save-text {
+  display: flex;
+  gap: 5px;
+}
+.sifreniunutmusuz .container-password .save-text .forgot-password {
+  margin-left: 36%;
+}
+.sifreniunutmusuz .container-password .save-text p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(69, 68, 68);
+}
+.sifreniunutmusuz .container-password .save-text-lock {
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 2px 2px 8px #aaa;
+  margin-top: 4%;
+  display: flex;
+  gap: 5px;
+}
+.sifreniunutmusuz .container-password .save-text-lock p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(69, 68, 68);
+}
+.sifreniunutmusuz .container-password .save-text-lock img {
+  width: 70px;
+  height: 50px;
+  margin-left: 15px;
+}
+.sifreniunutmusuz .container-password .sifreniyenile {
+  cursor: pointer;
+  padding: 12px 198px;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  margin-left: 2px;
+  background-color: #1a75ff;
+  color: #ddd;
+  text-decoration-line: none;
+}
+.sifreniunutmusuz .container-password .sifreniyenile:hover {
+  padding: 13px 200px;
+  transition: 0.3s all ease;
+}
+
+.yeni-hesab {
+  margin-top: 2%;
+  display: flex;
+}
+.yeni-hesab .img-yenihesab {
+  left: 20px;
+}
+.yeni-hesab .img-yenihesab img {
+  max-height: 90vh;
+}
+.yeni-hesab .geriye-yenihesab {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 8%;
+}
+.yeni-hesab .geriye-yenihesab i {
+  background-color: rgb(192, 196, 200);
+  padding: 10px 10px;
+  border-radius: 50%;
+  color: black;
+}
+.yeni-hesab .container-yenihesab {
+  width: 550px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 2px 2px 8px #aaa;
+  margin-top: 8%;
+}
+.yeni-hesab .container-yenihesab .up-text {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.yeni-hesab .container-yenihesab .up-text h3 {
+  color: grey;
+}
+.yeni-hesab .container-yenihesab .form-group {
+  position: relative;
+  background-color: transparent;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  color: rgb(68, 65, 65);
+}
+.yeni-hesab .container-yenihesab .form-group .user-icon {
+  position: absolute;
+  left: 10px;
+  top: 45px;
+  z-index: 3;
+}
+.yeni-hesab .container-yenihesab .form-group .form-control {
+  padding-left: 30px;
+  position: relative;
+  width: 450px;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+.yeni-hesab .container-yenihesab .save-text-lock {
+  padding: 10px;
+  margin-top: 4%;
+  display: flex;
+  gap: 5px;
+}
+.yeni-hesab .container-yenihesab .save-text-lock p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(69, 68, 68);
+  margin-top: 6%;
+}
+.yeni-hesab .container-yenihesab .restart {
+  cursor: pointer;
+  padding: 12px 198px;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  margin-left: 2px;
+  background-color: #1a75ff;
+}
+.yeni-hesab .container-yenihesab .restart a {
+  color: #ddd;
+  text-decoration-line: none;
+}
+.yeni-hesab .container-yenihesab .restart:hover {
+  padding: 13px 200px;
+  transition: 0.3s all ease;
+}
+.yeni-hesab .container-yenihesab .asan {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  cursor: pointer;
+  width: 510px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgb(99, 99, 159);
+  margin-left: 5px;
+  margin-top: 10px;
+  background-color: rgb(247, 245, 245);
+}
+.yeni-hesab .container-yenihesab .asan a {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(60, 58, 58);
+  text-decoration-line: none;
+}
+.yeni-hesab .container-yenihesab .veya-yenihesab {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(149, 144, 144);
+  margin-top: 25px;
+  margin-left: 40%;
 }/*# sourceMappingURL=style.css.map */
