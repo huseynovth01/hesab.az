@@ -36,10 +36,11 @@ else{
     emailmessage.style.border = "1 px solid black"
     
     if(!formcontrol.value.includes("@")){
-        emailmessage.textContent = "Meselen hesab@hesab.az və ya 994 00 123 45 67"
+        emailmessage.textContent = "Meselen hesab@hesab.az və ya 994 51 467 73 33"
         emailmessage.style.color="red"
         emailmessage.style.color = "1 px solid red"
     }
+    
 }
 
 // -----------password------
