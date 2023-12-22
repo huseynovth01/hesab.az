@@ -15,7 +15,7 @@ document.querySelector(".form_input").addEventListener("submit",function(e){
         mobilmessage.textContent = "";
         formcontrol.style.border = "1px solid black";
 
-        if (!formcontrol.value.includes("+994 51 467 73 33")) {
+        if (!formcontrol.value.includes("+994")) {
             mobilmessage.textContent = "Məsələn +994 51 467 73 33";
             mobilmessage.style.color = "red";
             formcontrol.style.border = "1px solid red";
